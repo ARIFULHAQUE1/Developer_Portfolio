@@ -1,0 +1,124 @@
+/* Fonts */
+
+.open-sans-normal {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+}
+
+/* shared style */
+.text-primary {
+    color: #FD6E0A;
+}
+
+.dark-2 {
+    color: #474747;
+}
+.dark-3{
+   color:  #757575;
+}
+
+/* button */
+.btn-primary {
+    background-color: #FD6E0A;
+    margin:10px 0;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid;
+    border: radius 5px;
+    color: white;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn-secondary {
+    background-color: #FFFFFF;
+    font-size: 16px;
+    font-weight: bold;
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    padding: 10px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;  
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* HEADER */
+.header{
+  
+    background-image:url('../RESOURCES/images/developer.png'), url(../RESOURCES/images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: left top,bottom right;
+    /* background-position:bottom right,  bottom right; */
+    
+   
+}
+
+/* Nav Styles */
+nav {
+    display: flex;
+    align-items: center;
+    justify-content:right;
+    margin: 0 200px;
+}
+
+.nav-title {
+    font-size: 35px;
+    font-weight: 800;
+}
+
+nav ul li {
+    list-style: none;
+    margin-right: 46px;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #474747;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    
+
+
+}
+
+/* Banner section */
+.banner{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 35px 0 200px;
+    
+}
+
+.banner-content{
+    max-width: 580px;
+    .banner-profile{
+        height: 676px;
+        width: 584px;
+    }
+}
+
+.banner-greetings{
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.banner-title{
+    font-size: 55px;
+    font-weight:bold;
+}
+
+.banner-profile{
+    width: 580px;
+}
