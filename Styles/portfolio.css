@@ -66,6 +66,10 @@
     text-align: center;
 }
 
+.text-small {
+    font-size: small;
+}
+
 main section {
     margin-top: 52px;
     margin-bottom: 130px;
@@ -190,6 +194,7 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+
 /* profile summary section */
 .profile-summary {
     display: flex;
@@ -197,15 +202,45 @@ main {
     align-items: center;
     padding: 30px 115px;
     gap: 30px;
-   
+
 }
-.profile-summary h6{
+
+.profile-summary h6 {
     margin-top: 10px;
 }
-.profile-summary p{
+
+.profile-summary p {
     font-size: small;
 }
-.profile-download{
+
+.profile-download {
     text-align: center;
     margin-top: 20px;
+}
+
+/* footer section */
+
+.connection {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    padding: 100px 115px;
+}
+
+.footer-column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 24px;
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    background-color: white;
+    display: block;
+
 }
