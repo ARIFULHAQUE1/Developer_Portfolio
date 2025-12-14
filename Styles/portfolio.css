@@ -25,6 +25,10 @@
     color: #757575;
 }
 
+.summary-section{
+    height: 120px;
+}
+
 /* button */
 .btn-primary {
     background-color: #FD6E0A;
