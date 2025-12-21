@@ -27,6 +27,7 @@
 
 .summary-section{
     height: 120px;
+    margin-bottom: 20px;
 }
 
 /* button */
@@ -170,9 +171,11 @@ main {
 
 .about-items {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     margin-top: 30px;
+    text-align: left;
 }
+
 
 .item-title {
     text-align: center;
@@ -181,7 +184,7 @@ main {
 
 .item-description {
     /* font-size: 24px; */
-    font-weight: 700;
+    font-weight: 400;
     margin-bottom: 0px;
 }
 
@@ -247,4 +250,58 @@ footer textarea {
     background-color: white;
     display: block;
 
+}
+
+/* responsive media query */
+@media screen and (max-width: 576px) {
+    .skill-container, 
+    .profile-summary, 
+    .banner,
+    footer, 
+    nav, 
+    nav > ul,
+    .about-items{
+        flex-direction: column;
+    }
+
+    nav > ul{
+        gap: 20px;
+    }
+
+    .btn-primary{
+        margin-bottom: 20px;
+    }
+
+    .banner {
+        margin: 20px;
+    }
+
+    .banner-profile{
+        width: 100%;
+    }
+
+    .header{
+        background-image: none;
+    }
+
+    footer, .about{
+        padding: 20px;
+    }
+
+    .footer-column{
+        width: 100%;
+    }
+
+    footer input[type="text"],  
+    footer input[type="email"], 
+    footer textarea{
+        width: calc(100% - 40px);
+    }
+}
+
+/* tablet specific media query */
+@media screen and (min-width: 576px) and (max-width:990px) {
+    .banner{
+        flex-direction: column;
+    }
 }
