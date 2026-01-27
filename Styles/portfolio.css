@@ -204,7 +204,26 @@ main {
     border-radius: 5px;
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
+.skill img{
+    width: 44px;
+    /* height: 44px; */
+}
 
+#js {
+ background-image: linear-gradient(to bottom,rgba(244, 239, 202, 0.847)5%,rgba(255, 255, 255, 0.978)95%);
+}
+#react {
+ background-image: linear-gradient(to bottom, rgba(184, 233, 246, 0.855) 5%,rgba(255, 255, 255, 0.978)95%);  
+}
+#node {
+ background-image: linear-gradient(to bottom,rgba(213, 243, 182, 0.854)5%,rgba(255, 255, 255, 0.978)95%);  
+}
+#mongo {
+ background-image: linear-gradient(to bottom,rgba(182, 247, 209, 0.854)15%,rgba(255, 255, 255, 0.978)85%);  
+}
+#sharepoint {
+ background-image: linear-gradient(to bottom,rgba(162, 236, 241, 0.854)15%,rgba(255, 255, 255, 0.978)85%);  
+}
 /* profile summary section */
 .profile-summary {
     display: flex;
